@@ -1,0 +1,390 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "meta": {}
+        }
+      ],
+      "/blog": [
+        {
+          "title": "简介"
+        },
+        {
+          "title": "ECharts",
+          "children": [
+            {
+              "path": "/blog/echarts/min",
+              "title": "3 分钟上手 ECharts"
+            },
+            {
+              "path": "/blog/echarts/webpack",
+              "title": "在 webpack 中使用 ECharts"
+            },
+            {
+              "path": "/blog/echarts/mobile",
+              "title": "移动端自适应"
+            },
+            {
+              "path": "/blog/echarts/event",
+              "title": "ECharts的事件和行为"
+            },
+            {
+              "path": "/blog/echarts/styles",
+              "title": "ECharts 中的样式简介"
+            },
+            {
+              "path": "/blog/echarts/ownstyle",
+              "title": "个性化图表的样式"
+            },
+            {
+              "path": "/blog/echarts/canvas",
+              "title": "使用 Canvas 或者 SVG 渲染"
+            },
+            {
+              "path": "/blog/echarts/gl",
+              "title": "使用 ECharts GL 实现基础的三维可视化"
+            }
+          ]
+        },
+        {
+          "title": "Node.js",
+          "children": [
+            {
+              "path": "/blog/nodejs/node-func",
+              "title": "常用模块和功能函数"
+            },
+            {
+              "path": "/blog/nodejs/nodejs",
+              "title": "Node.js 进程"
+            },
+            {
+              "path": "/blog/nodejs/node-internet",
+              "title": "网络体系基础及实践"
+            },
+            {
+              "path": "/blog/nodejs/node-basic",
+              "title": "basic 认证机制"
+            },
+            {
+              "path": "/blog/nodejs/node-http-proxy",
+              "title": "使用Node实现Http代理"
+            },
+            {
+              "path": "/blog/nodejs/settimeout",
+              "title": "setImmediate 和setTimeout的区别"
+            },
+            {
+              "path": "/blog/nodejs/node-ejs",
+              "title": "ejs 模版实现原理"
+            },
+            {
+              "path": "/blog/nodejs/node-express",
+              "title": "express 基本原理"
+            },
+            {
+              "path": "/blog/nodejs/node-recommend",
+              "title": "推荐课程"
+            }
+          ]
+        },
+        {
+          "title": "Webkit",
+          "children": [
+            {
+              "path": "/blog/webkit/render",
+              "title": "webKit的网页渲染过程"
+            },
+            {
+              "path": "/blog/webkit/base",
+              "title": "webkit 之 javaScript 引擎"
+            },
+            {
+              "path": "/blog/webkit/sped",
+              "title": "浏览器之硬件加速机制"
+            },
+            {
+              "path": "/blog/webkit/style",
+              "title": "浏览器内核之 CSS 解释器和样式布局"
+            },
+            {
+              "path": "/blog/webkit/html",
+              "title": "HTML 解释器"
+            }
+          ]
+        },
+        {
+          "title": "源码解析",
+          "children": [
+            {
+              "path": "/blog/source/bind",
+              "title": "js中 bind 函数的原理"
+            },
+            {
+              "path": "/blog/source/promise",
+              "title": "promise 原理解析"
+            },
+            {
+              "path": "/blog/source/promiseall",
+              "title": "promise.all"
+            },
+            {
+              "path": "/blog/source/webpack",
+              "title": "webpack 阉割版实现"
+            },
+            {
+              "path": "/blog/source/hooks",
+              "title": "webpack之tapable库中hooks"
+            },
+            {
+              "path": "/blog/source/antd",
+              "title": "antd 源码 学习"
+            },
+            {
+              "path": "/blog/source/cra",
+              "title": "create-react-app 源码解读"
+            },
+            {
+              "path": "/blog/source/react-dom",
+              "title": "react 虚拟dom 浅析"
+            },
+            {
+              "path": "/blog/source/babel",
+              "title": "babel 之 按需加载"
+            },
+            {
+              "path": "/blog/source/class",
+              "title": "ES6中 class跟普通function的区别"
+            },
+            {
+              "path": "/blog/source/v8stack",
+              "title": "深入v8提供的堆栈跟踪"
+            }
+          ]
+        },
+        {
+          "title": "数据结构算法",
+          "children": [
+            {
+              "path": "/blog/structure/base",
+              "title": "时间复杂度和大O表示法"
+            },
+            {
+              "path": "/blog/structure/array",
+              "title": "数组( 队列，栈，矩阵 )"
+            },
+            {
+              "path": "/blog/structure/map",
+              "title": "集合，字典和散列表"
+            },
+            {
+              "path": "/blog/structure/tree",
+              "title": "树"
+            },
+            {
+              "path": "/blog/structure/drawing",
+              "title": "图"
+            },
+            {
+              "path": "/blog/structure/linked",
+              "title": "链表"
+            },
+            {
+              "path": "/blog/structure/arithmetic",
+              "title": "基础算法"
+            }
+          ]
+        },
+        {
+          "title": "工程化",
+          "children": [
+            {
+              "path": "/blog/project/lerna",
+              "title": "lerna管理前端packages的最佳实践"
+            },
+            {
+              "path": "/blog/project/shrinkwrap",
+              "title": "npm shrinkwrap"
+            },
+            {
+              "path": "/blog/project/babel",
+              "title": "babel7相关"
+            },
+            {
+              "path": "/blog/project/postcss",
+              "title": "postcss 插件 开发"
+            }
+          ]
+        },
+        {
+          "title": "性能优化",
+          "children": [
+            {
+              "path": "/blog/performance/dingwei",
+              "title": "定位解决web开发中的性能问题"
+            },
+            {
+              "path": "/blog/performance/plugin",
+              "title": "web应用性能优化之 nginx + compression-webpack-plugin"
+            },
+            {
+              "path": "/blog/performance/tools",
+              "title": "Chrome DevTools 代码覆盖率功能详解"
+            },
+            {
+              "path": "/blog/performance/css",
+              "title": "在CSS动画中启用硬件加速"
+            },
+            {
+              "path": "/blog/performance/recommend",
+              "title": "推荐课程"
+            }
+          ]
+        },
+        {
+          "title": "react",
+          "children": [
+            {
+              "path": "/blog/react/base",
+              "title": "react  中的 function Component"
+            },
+            {
+              "path": "/blog/react/redux",
+              "title": "redux思想"
+            }
+          ]
+        },
+        {
+          "title": "vue",
+          "children": [
+            {
+              "path": "/blog/vue/vuex",
+              "title": "vuex 源码解读"
+            },
+            {
+              "path": "/blog/vue/mvvm",
+              "title": "vue mvvm 原理"
+            }
+          ]
+        },
+        {
+          "title": "设计模式",
+          "children": [
+            {
+              "path": "/blog/design",
+              "title": "设计模式及原则"
+            }
+          ]
+        },
+        {
+          "title": "计算机网络",
+          "children": [
+            {
+              "path": "/blog/network/base",
+              "title": "网络基础"
+            }
+          ]
+        },
+        {
+          "title": "其他",
+          "children": [
+            {
+              "path": "/blog/others",
+              "title": "博客搭建"
+            }
+          ]
+        }
+      ],
+      "/framework": [
+        {
+          "path": "/framework",
+          "title": "前端架构",
+          "meta": {}
+        },
+        {
+          "title": "Environment",
+          "path": "/framework/environment",
+          "meta": {},
+          "children": [
+            {
+              "path": "/framework/environment/coder-tool",
+              "title": "代码编写工具",
+              "meta": {}
+            }
+          ]
+        }
+      ],
+      "/jingpin": [
+        {
+          "path": "/jingpin",
+          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "meta": {}
+        }
+      ],
+      "/resource": [
+        {
+          "path": "/resource",
+          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "meta": {}
+        }
+      ],
+      "/week": [
+        {
+          "path": "/week",
+          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "meta": {}
+        }
+      ],
+      "framework": [
+        {
+          "title": "前端架构"
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "title": "基础博客",
+        "path": "/blog"
+      },
+      {
+        "title": "前端架构",
+        "path": "/framework"
+      },
+      {
+        "title": "开源项目",
+        "path": "https://github.com/FreemenL/emptyd-admin-webpack"
+      },
+      {
+        "title": "博主出品",
+        "path": "/resource"
+      },
+      {
+        "title": "每周导读",
+        "path": "/week"
+      },
+      {
+        "title": "精品资源",
+        "path": "/jingpin"
+      }
+    ]
+  },
+  "title": "刘夏江",
+  "logo": "https://wxonebyone.oss-cn-beijing.aliyuncs.com/files/dev/cms/resource/uploaded/1583683639203_pinterest_profile_image.png",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {},
+  "exportStatic": {}
+}

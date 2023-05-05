@@ -1,13 +1,13 @@
 // @ts-nocheck
 import React from 'react';
-import initialState from '/Users/jiayali/Desktop/old/dumi-test/site-model/src/.umi/plugin-initial-state/models/initialState';
+import initialState from '/Users/freemen/Desktop/blog/freemenBlog/site-model/src/.umi/plugin-initial-state/models/initialState';
 
 // @ts-ignore
-import Dispatcher from '/Users/jiayali/Desktop/old/dumi-test/site-model/node_modules/_@umijs_plugin-model@2.5.3@@umijs/plugin-model/lib/helpers/dispatcher';
+import Dispatcher from './helpers/dispatcher';
 // @ts-ignore
-import Executor from '/Users/jiayali/Desktop/old/dumi-test/site-model/node_modules/_@umijs_plugin-model@2.5.3@@umijs/plugin-model/lib/helpers/executor';
+import Executor from './helpers/executor';
 // @ts-ignore
-import { UmiContext } from '/Users/jiayali/Desktop/old/dumi-test/site-model/node_modules/_@umijs_plugin-model@2.5.3@@umijs/plugin-model/lib/helpers/constant';
+import { UmiContext } from './helpers/constant';
 
 export const models = { '@@initialState': initialState,  };
 

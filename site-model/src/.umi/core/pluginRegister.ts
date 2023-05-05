@@ -11,3 +11,5 @@ import * as Plugin_1 from '../plugin-model/runtime';
     apply: Plugin_1,
     path: '../plugin-model/runtime',
   });
+
+export const __mfsu = 1;

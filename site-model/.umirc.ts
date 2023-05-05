@@ -5,7 +5,7 @@ const CompressionWebpackPlugin = require('compression-webpack-plugin');
 export default defineConfig({
   dynamicImport:{
   },
-  title: '十三先生',
+  title: '刘夏江',
   mode: 'site',
   hash: true,
   styles:[
@@ -49,10 +49,19 @@ export default defineConfig({
       },{
         title: '设计模式',
         children: ['blog/design/index'],
+      }
+      ,{
+        title: '计算机网络',
+        children: ['blog/network/base'],
       },{
         title: '其他',
         children: ['blog/others/index'],
       }
+    ],
+    'framework': [
+      {
+        title: '前端架构',
+      }  
     ],
   },
   extraBabelPlugins: [
@@ -66,12 +75,12 @@ export default defineConfig({
     ],
   ],
   navs: [
-    { title: '博客', path: '/blog'},
+    { title: '基础博客', path: '/blog'},
+    { title: '前端架构', path: '/framework'},
     { title: '开源项目', path: 'https://github.com/FreemenL/emptyd-admin-webpack'},
     { title: '博主出品', path: '/resource'},
     { title: '每周导读', path: '/week'},
-    { title: '精品资源', path: '/jingpin'},
-    { title: '友情链接', path: '/face'},
+    { title: '精品资源', path: '/jingpin'}
   ],
   chainWebpack: function (config, { env, webpack, createCSSRule }) {
     config.merge({
