@@ -1,5 +1,5 @@
 ---
-title: 刘夏江 | react | webpack | Node.js | webkit | 最新干货分享
+title: freemen | react | webpack | Node.js | webkit | 最新干货分享
 hero:
   title: 精品资源
   desc: '持续更新中...'

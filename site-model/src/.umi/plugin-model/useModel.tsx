@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { useState, useEffect, useContext, useRef } from 'react';
 // @ts-ignore
-import isEqual from '/Users/freemen/Desktop/blog/freemenBlog/site-model/node_modules/_fast-deep-equal@3.1.1@fast-deep-equal/index.js';
+import isEqual from '/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/node_modules/.store/fast-deep-equal@3.1.1/node_modules/fast-deep-equal/index.js';
 // @ts-ignore
 import { UmiContext } from './helpers/constant';
 import { Model, models } from './Provider';

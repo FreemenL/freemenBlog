@@ -1,5 +1,5 @@
 ---
-title: 刘夏江 | react | webpack | Node.js | webkit | 最新干货分享
+title: freemen | react | webpack | Node.js | webkit | 最新干货分享
 hero:
   title: 每周导读
 footer: 本站部署在[腾讯云](https://curl.qcloud.com/nlc1vDH0)，新老用户购买服务器有优惠，[访问链接](https://curl.qcloud.com/nlc1vDH0)

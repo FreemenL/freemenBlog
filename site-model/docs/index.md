@@ -1,7 +1,7 @@
 ---
-title: 刘夏江 | react | webpack | Node.js | webkit | 最新干货分享
+title: freemen | react | webpack | Node.js | webkit | 最新干货分享
 hero:
-  title: 刘夏江的博客
+  title: freemen的博客
   desc: 重剑无锋，大巧不工
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png

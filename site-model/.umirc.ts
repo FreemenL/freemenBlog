@@ -5,7 +5,7 @@ const CompressionWebpackPlugin = require('compression-webpack-plugin');
 export default defineConfig({
   dynamicImport:{
   },
-  title: '刘夏江',
+  title: 'freemen',
   mode: 'site',
   hash: true,
   styles:[

@@ -4,7 +4,7 @@
       "*": [
         {
           "path": "/",
-          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享",
           "meta": {}
         }
       ],
@@ -319,21 +319,21 @@
       "/jingpin": [
         {
           "path": "/jingpin",
-          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享",
           "meta": {}
         }
       ],
       "/resource": [
         {
           "path": "/resource",
-          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享",
           "meta": {}
         }
       ],
       "/week": [
         {
           "path": "/week",
-          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享",
           "meta": {}
         }
       ],
@@ -378,7 +378,7 @@
       }
     ]
   },
-  "title": "刘夏江",
+  "title": "freemen",
   "logo": "https://wxonebyone.oss-cn-beijing.aliyuncs.com/files/dev/cms/resource/uploaded/1583683639203_pinterest_profile_image.png",
   "mode": "site",
   "repository": {

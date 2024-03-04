@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/freemen/Desktop/blog/freemenBlog/site-model/node_modules/_@umijs_runtime@3.5.40@@umijs/runtime';
-import { renderClient } from '/Users/freemen/Desktop/blog/freemenBlog/site-model/node_modules/_@umijs_renderer-react@3.5.40@@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from '/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/node_modules/.store/@umijs+runtime@3.5.41/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/node_modules/.store/@umijs+renderer-react@3.5.41/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
@@ -25,7 +25,7 @@ const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin
         isServer: process.env.__IS_SERVER,
         dynamicImport: true,
         rootElement: 'root',
-        defaultTitle: `刘夏江`,
+        defaultTitle: `freemen`,
       },
     });
     return renderClient(opts);
@@ -38,7 +38,7 @@ export default clientRender();
 
 
     window.g_umi = {
-      version: '3.5.40',
+      version: '3.5.41',
     };
   
 

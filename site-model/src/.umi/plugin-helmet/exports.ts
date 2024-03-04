@@ -1,3 +1,3 @@
 // @ts-nocheck
 // @ts-ignore
-export { Helmet } from '/Users/freemen/Desktop/blog/freemenBlog/site-model/node_modules/_react-helmet@6.1.0@react-helmet';
+export { Helmet } from '/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/node_modules/.store/react-helmet@6.1.0/node_modules/react-helmet';

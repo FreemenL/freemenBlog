@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType, dynamic } from '/Users/freemen/Desktop/blog/freemenBlog/site-model/node_modules/_@umijs_runtime@3.5.40@@umijs/runtime';
+import { ApplyPluginsType, dynamic } from '/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/node_modules/.store/@umijs+runtime@3.5.41/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
@@ -13,7 +13,7 @@ export function getRoutes() {
     "component": ((props) => dynamic({
           loader: async () => {
             const React = await import('react');
-            const { default: getDemoRenderArgs } = await import(/* webpackChunkName: 'dumi_demos' */ '/Users/freemen/Desktop/blog/freemenBlog/site-model/node_modules/_@umijs_preset-dumi@1.1.50@@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
+            const { default: getDemoRenderArgs } = await import(/* webpackChunkName: 'dumi_demos' */ '/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/node_modules/.store/@umijs+preset-dumi@1.1.54/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
             const { default: Previewer } = await import(/* webpackChunkName: 'dumi_demos' */ 'dumi-theme-default/es/builtins/Previewer.js');
             const { usePrefersColor, context } = await import(/* webpackChunkName: 'dumi_demos' */ 'dumi/theme');
 
@@ -60,18 +60,18 @@ export function getRoutes() {
     "__dumiRoot": true,
     "layout": false,
     "path": "/",
-    "wrappers": [dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'../dumi/layout')}), dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/node_modules/_dumi-theme-default@1.1.24@dumi-theme-default/es/layout.js')})],
+    "wrappers": [dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'../dumi/layout')}), dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/node_modules/.store/dumi-theme-default@1.1.24/node_modules/dumi-theme-default/es/layout.js')})],
     "routes": [
       {
         "path": "/",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__index.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__index.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1624178582000,
-          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "updatedTime": 1683256762000,
+          "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享",
           "hero": {
-            "title": "刘夏江的博客",
+            "title": "freemen的博客",
             "desc": "<div class=\"markdown\"><p>重剑无锋，大巧不工</p></div>"
           },
           "features": [
@@ -94,15 +94,15 @@ export function getRoutes() {
           "footer": "<div class=\"markdown\"><p>本站部署在<a href=\"https://curl.qcloud.com/nlc1vDH0\" target=\"_blank\">腾讯云<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 100\" width=\"15\" height=\"15\" class=\"__dumi-default-external-link-icon\"><path fill=\"currentColor\" d=\"M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z\"></path><polygon fill=\"currentColor\" points=\"45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9\"></polygon></svg></a>，新老用户购买服务器有优惠，<a href=\"https://curl.qcloud.com/nlc1vDH0\" target=\"_blank\">访问链接<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 100\" width=\"15\" height=\"15\" class=\"__dumi-default-external-link-icon\"><path fill=\"currentColor\" d=\"M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z\"></path><polygon fill=\"currentColor\" points=\"45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9\"></polygon></svg></a></p></div>",
           "slugs": []
         },
-        "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享 - 刘夏江"
+        "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享 - freemen"
       },
       {
         "path": "/blog",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__index.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__index.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/index.md",
-          "updatedTime": 1624178582000,
+          "updatedTime": 1683256762000,
           "slugs": [
             {
               "depth": 2,
@@ -121,11 +121,11 @@ export function getRoutes() {
             "title": "Blog"
           }
         },
-        "title": "简介 - 刘夏江"
+        "title": "简介 - freemen"
       },
       {
         "path": "/blog/design",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__design__index.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/design/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__design__index.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/design/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/design/index.md",
@@ -227,11 +227,11 @@ export function getRoutes() {
             "title": "Design"
           }
         },
-        "title": "设计模式及原则 - 刘夏江"
+        "title": "设计模式及原则 - freemen"
       },
       {
         "path": "/blog/echarts/canvas",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__canvas.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/echarts/canvas.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__canvas.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/echarts/canvas.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/echarts/canvas.md",
@@ -263,11 +263,11 @@ export function getRoutes() {
             "title": "Echarts"
           }
         },
-        "title": "使用 Canvas 或者 SVG 渲染 - 刘夏江"
+        "title": "使用 Canvas 或者 SVG 渲染 - freemen"
       },
       {
         "path": "/blog/echarts/event",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__event.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/echarts/event.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__event.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/echarts/event.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/echarts/event.md",
@@ -304,11 +304,11 @@ export function getRoutes() {
             "title": "Echarts"
           }
         },
-        "title": "ECharts的事件和行为 - 刘夏江"
+        "title": "ECharts的事件和行为 - freemen"
       },
       {
         "path": "/blog/echarts/gl",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__gl.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/echarts/gl.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__gl.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/echarts/gl.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/echarts/gl.md",
@@ -355,11 +355,11 @@ export function getRoutes() {
             "title": "Echarts"
           }
         },
-        "title": "使用 ECharts GL 实现基础的三维可视化 - 刘夏江"
+        "title": "使用 ECharts GL 实现基础的三维可视化 - freemen"
       },
       {
         "path": "/blog/echarts/min",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__min.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/echarts/min.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__min.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/echarts/min.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/echarts/min.md",
@@ -396,11 +396,11 @@ export function getRoutes() {
             "title": "Echarts"
           }
         },
-        "title": "3 分钟上手 ECharts - 刘夏江"
+        "title": "3 分钟上手 ECharts - freemen"
       },
       {
         "path": "/blog/echarts/mobile",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__mobile.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/echarts/mobile.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__mobile.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/echarts/mobile.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/echarts/mobile.md",
@@ -462,11 +462,11 @@ export function getRoutes() {
             "title": "Echarts"
           }
         },
-        "title": "移动端自适应 - 刘夏江"
+        "title": "移动端自适应 - freemen"
       },
       {
         "path": "/blog/echarts/ownstyle",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__ownstyle.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/echarts/ownstyle.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__ownstyle.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/echarts/ownstyle.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/echarts/ownstyle.md",
@@ -508,11 +508,11 @@ export function getRoutes() {
             "title": "Echarts"
           }
         },
-        "title": "个性化图表的样式 - 刘夏江"
+        "title": "个性化图表的样式 - freemen"
       },
       {
         "path": "/blog/echarts/styles",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__styles.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/echarts/styles.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__styles.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/echarts/styles.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/echarts/styles.md",
@@ -559,11 +559,11 @@ export function getRoutes() {
             "title": "Echarts"
           }
         },
-        "title": "ECharts 中的样式简介 - 刘夏江"
+        "title": "ECharts 中的样式简介 - freemen"
       },
       {
         "path": "/blog/echarts/webpack",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__webpack.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/echarts/webpack.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__echarts__webpack.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/echarts/webpack.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/echarts/webpack.md",
@@ -600,15 +600,15 @@ export function getRoutes() {
             "title": "Echarts"
           }
         },
-        "title": "在 webpack 中使用 ECharts - 刘夏江"
+        "title": "在 webpack 中使用 ECharts - freemen"
       },
       {
         "path": "/blog/network/base",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__network__base.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/network/base.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__network__base.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/network/base.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/network/base.md",
-          "updatedTime": 1683204562323,
+          "updatedTime": 1683256762000,
           "slugs": [
             {
               "depth": 1,
@@ -646,11 +646,11 @@ export function getRoutes() {
             "title": "Network"
           }
         },
-        "title": "网络基础 - 刘夏江"
+        "title": "网络基础 - freemen"
       },
       {
         "path": "/blog/nodejs/node-basic",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-basic.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/node-basic.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-basic.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/node-basic.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/node-basic.md",
@@ -677,11 +677,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "basic 认证机制 - 刘夏江"
+        "title": "basic 认证机制 - freemen"
       },
       {
         "path": "/blog/nodejs/node-ejs",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-ejs.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/node-ejs.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-ejs.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/node-ejs.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/node-ejs.md",
@@ -703,11 +703,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "ejs 模版实现原理 - 刘夏江"
+        "title": "ejs 模版实现原理 - freemen"
       },
       {
         "path": "/blog/nodejs/node-express",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-express.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/node-express.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-express.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/node-express.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/node-express.md",
@@ -739,11 +739,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "express 基本原理 - 刘夏江"
+        "title": "express 基本原理 - freemen"
       },
       {
         "path": "/blog/nodejs/node-func",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-func.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/node-func.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-func.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/node-func.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/node-func.md",
@@ -885,11 +885,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "常用模块和功能函数 - 刘夏江"
+        "title": "常用模块和功能函数 - freemen"
       },
       {
         "path": "/blog/nodejs/node-http-proxy",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-http-proxy.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/node-http-proxy.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-http-proxy.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/node-http-proxy.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/node-http-proxy.md",
@@ -911,11 +911,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "使用Node实现Http代理 - 刘夏江"
+        "title": "使用Node实现Http代理 - freemen"
       },
       {
         "path": "/blog/nodejs/node-internet",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-internet.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/node-internet.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-internet.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/node-internet.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/node-internet.md",
@@ -1072,11 +1072,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "网络体系基础及实践 - 刘夏江"
+        "title": "网络体系基础及实践 - freemen"
       },
       {
         "path": "/blog/nodejs/node-recommend",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-recommend.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/node-recommend.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__node-recommend.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/node-recommend.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/node-recommend.md",
@@ -1113,11 +1113,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "推荐课程 - 刘夏江"
+        "title": "推荐课程 - freemen"
       },
       {
         "path": "/blog/nodejs/nodejs",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__nodejs.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/nodejs.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__nodejs.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/nodejs.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/nodejs.md",
@@ -1259,11 +1259,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "Node.js 进程 - 刘夏江"
+        "title": "Node.js 进程 - freemen"
       },
       {
         "path": "/blog/nodejs/settimeout",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__settimeout.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/nodejs/settimeout.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__nodejs__settimeout.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/nodejs/settimeout.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/nodejs/settimeout.md",
@@ -1285,11 +1285,11 @@ export function getRoutes() {
             "title": "Nodejs"
           }
         },
-        "title": "setImmediate 和setTimeout的区别 - 刘夏江"
+        "title": "setImmediate 和setTimeout的区别 - freemen"
       },
       {
         "path": "/blog/others",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__others__index.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/others/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__others__index.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/others/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/others/index.md",
@@ -1336,11 +1336,11 @@ export function getRoutes() {
             "title": "Others"
           }
         },
-        "title": "博客搭建 - 刘夏江"
+        "title": "博客搭建 - freemen"
       },
       {
         "path": "/blog/performance/css",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__css.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/performance/css.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__css.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/performance/css.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/performance/css.md",
@@ -1397,11 +1397,11 @@ export function getRoutes() {
             "title": "Performance"
           }
         },
-        "title": "在CSS动画中启用硬件加速 - 刘夏江"
+        "title": "在CSS动画中启用硬件加速 - freemen"
       },
       {
         "path": "/blog/performance/dingwei",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__dingwei.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/performance/dingwei.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__dingwei.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/performance/dingwei.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/performance/dingwei.md",
@@ -1443,11 +1443,11 @@ export function getRoutes() {
             "title": "Performance"
           }
         },
-        "title": "定位解决web开发中的性能问题 - 刘夏江"
+        "title": "定位解决web开发中的性能问题 - freemen"
       },
       {
         "path": "/blog/performance/plugin",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__plugin.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/performance/plugin.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__plugin.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/performance/plugin.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/performance/plugin.md",
@@ -1469,11 +1469,11 @@ export function getRoutes() {
             "title": "Performance"
           }
         },
-        "title": "web应用性能优化之 nginx + compression-webpack-plugin - 刘夏江"
+        "title": "web应用性能优化之 nginx + compression-webpack-plugin - freemen"
       },
       {
         "path": "/blog/performance/recommend",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__recommend.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/performance/recommend.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__recommend.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/performance/recommend.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/performance/recommend.md",
@@ -1510,11 +1510,11 @@ export function getRoutes() {
             "title": "Performance"
           }
         },
-        "title": "推荐课程 - 刘夏江"
+        "title": "推荐课程 - freemen"
       },
       {
         "path": "/blog/performance/tools",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__tools.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/performance/tools.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__performance__tools.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/performance/tools.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/performance/tools.md",
@@ -1541,11 +1541,11 @@ export function getRoutes() {
             "title": "Performance"
           }
         },
-        "title": "Chrome DevTools 代码覆盖率功能详解 - 刘夏江"
+        "title": "Chrome DevTools 代码覆盖率功能详解 - freemen"
       },
       {
         "path": "/blog/project/babel",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__project__babel.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/project/babel.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__project__babel.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/project/babel.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/project/babel.md",
@@ -1587,11 +1587,11 @@ export function getRoutes() {
             "title": "Project"
           }
         },
-        "title": "babel7相关 - 刘夏江"
+        "title": "babel7相关 - freemen"
       },
       {
         "path": "/blog/project/lerna",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__project__lerna.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/project/lerna.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__project__lerna.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/project/lerna.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/project/lerna.md",
@@ -1698,11 +1698,11 @@ export function getRoutes() {
             "title": "Project"
           }
         },
-        "title": "lerna管理前端packages的最佳实践 - 刘夏江"
+        "title": "lerna管理前端packages的最佳实践 - freemen"
       },
       {
         "path": "/blog/project/postcss",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__project__postcss.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/project/postcss.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__project__postcss.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/project/postcss.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/project/postcss.md",
@@ -1724,11 +1724,11 @@ export function getRoutes() {
             "title": "Project"
           }
         },
-        "title": "postcss 插件 开发 - 刘夏江"
+        "title": "postcss 插件 开发 - freemen"
       },
       {
         "path": "/blog/project/shrinkwrap",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__project__shrinkwrap.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/project/shrinkwrap.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__project__shrinkwrap.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/project/shrinkwrap.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/project/shrinkwrap.md",
@@ -1770,11 +1770,11 @@ export function getRoutes() {
             "title": "Project"
           }
         },
-        "title": "npm shrinkwrap - 刘夏江"
+        "title": "npm shrinkwrap - freemen"
       },
       {
         "path": "/blog/react/base",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__react__base.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/react/base.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__react__base.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/react/base.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/react/base.md",
@@ -1856,11 +1856,11 @@ export function getRoutes() {
             "title": "React"
           }
         },
-        "title": "react  中的 function Component - 刘夏江"
+        "title": "react  中的 function Component - freemen"
       },
       {
         "path": "/blog/react/redux",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__react__redux.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/react/redux.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__react__redux.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/react/redux.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/react/redux.md",
@@ -1882,11 +1882,11 @@ export function getRoutes() {
             "title": "React"
           }
         },
-        "title": "redux思想 - 刘夏江"
+        "title": "redux思想 - freemen"
       },
       {
         "path": "/blog/source/antd",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__antd.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/antd.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__antd.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/antd.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/antd.md",
@@ -1918,11 +1918,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "antd 源码 学习 - 刘夏江"
+        "title": "antd 源码 学习 - freemen"
       },
       {
         "path": "/blog/source/babel",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__babel.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/babel.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__babel.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/babel.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/babel.md",
@@ -1944,11 +1944,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "babel 之 按需加载 - 刘夏江"
+        "title": "babel 之 按需加载 - freemen"
       },
       {
         "path": "/blog/source/bind",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__bind.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/bind.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__bind.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/bind.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/bind.md",
@@ -1970,11 +1970,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "js中 bind 函数的原理 - 刘夏江"
+        "title": "js中 bind 函数的原理 - freemen"
       },
       {
         "path": "/blog/source/class",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__class.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/class.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__class.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/class.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/class.md",
@@ -2001,11 +2001,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "ES6中 class跟普通function的区别 - 刘夏江"
+        "title": "ES6中 class跟普通function的区别 - freemen"
       },
       {
         "path": "/blog/source/cra",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__cra.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/cra.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__cra.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/cra.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/cra.md",
@@ -2047,11 +2047,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "create-react-app 源码解读 - 刘夏江"
+        "title": "create-react-app 源码解读 - freemen"
       },
       {
         "path": "/blog/source/hooks",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__hooks.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/hooks.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__hooks.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/hooks.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/hooks.md",
@@ -2098,11 +2098,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "webpack之tapable库中hooks - 刘夏江"
+        "title": "webpack之tapable库中hooks - freemen"
       },
       {
         "path": "/blog/source/promise",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__promise.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/promise.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__promise.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/promise.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/promise.md",
@@ -2124,11 +2124,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "promise 原理解析 - 刘夏江"
+        "title": "promise 原理解析 - freemen"
       },
       {
         "path": "/blog/source/promiseall",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__promiseall.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/promiseall.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__promiseall.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/promiseall.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/promiseall.md",
@@ -2160,11 +2160,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "promise.all - 刘夏江"
+        "title": "promise.all - freemen"
       },
       {
         "path": "/blog/source/react-dom",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__react-dom.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/react-dom.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__react-dom.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/react-dom.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/react-dom.md",
@@ -2191,11 +2191,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "react 虚拟dom 浅析 - 刘夏江"
+        "title": "react 虚拟dom 浅析 - freemen"
       },
       {
         "path": "/blog/source/v8stack",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__v8stack.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/v8stack.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__v8stack.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/v8stack.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/v8stack.md",
@@ -2247,11 +2247,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "深入v8提供的堆栈跟踪 - 刘夏江"
+        "title": "深入v8提供的堆栈跟踪 - freemen"
       },
       {
         "path": "/blog/source/webpack",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__webpack.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/source/webpack.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__source__webpack.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/source/webpack.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/source/webpack.md",
@@ -2288,11 +2288,11 @@ export function getRoutes() {
             "title": "Source"
           }
         },
-        "title": "webpack 阉割版实现 - 刘夏江"
+        "title": "webpack 阉割版实现 - freemen"
       },
       {
         "path": "/blog/structure/arithmetic",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__arithmetic.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/structure/arithmetic.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__arithmetic.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/structure/arithmetic.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/structure/arithmetic.md",
@@ -2369,11 +2369,11 @@ export function getRoutes() {
             "title": "Structure"
           }
         },
-        "title": "基础算法 - 刘夏江"
+        "title": "基础算法 - freemen"
       },
       {
         "path": "/blog/structure/array",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__array.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/structure/array.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__array.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/structure/array.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/structure/array.md",
@@ -2425,11 +2425,11 @@ export function getRoutes() {
             "title": "Structure"
           }
         },
-        "title": "数组( 队列，栈，矩阵 ) - 刘夏江"
+        "title": "数组( 队列，栈，矩阵 ) - freemen"
       },
       {
         "path": "/blog/structure/base",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__base.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/structure/base.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__base.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/structure/base.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/structure/base.md",
@@ -2481,11 +2481,11 @@ export function getRoutes() {
             "title": "Structure"
           }
         },
-        "title": "时间复杂度和大O表示法 - 刘夏江"
+        "title": "时间复杂度和大O表示法 - freemen"
       },
       {
         "path": "/blog/structure/drawing",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__drawing.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/structure/drawing.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__drawing.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/structure/drawing.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/structure/drawing.md",
@@ -2527,11 +2527,11 @@ export function getRoutes() {
             "title": "Structure"
           }
         },
-        "title": "图 - 刘夏江"
+        "title": "图 - freemen"
       },
       {
         "path": "/blog/structure/linked",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__linked.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/structure/linked.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__linked.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/structure/linked.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/structure/linked.md",
@@ -2563,11 +2563,11 @@ export function getRoutes() {
             "title": "Structure"
           }
         },
-        "title": "链表 - 刘夏江"
+        "title": "链表 - freemen"
       },
       {
         "path": "/blog/structure/map",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__map.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/structure/map.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__map.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/structure/map.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/structure/map.md",
@@ -2624,11 +2624,11 @@ export function getRoutes() {
             "title": "Structure"
           }
         },
-        "title": "集合，字典和散列表 - 刘夏江"
+        "title": "集合，字典和散列表 - freemen"
       },
       {
         "path": "/blog/structure/tree",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__tree.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/structure/tree.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__structure__tree.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/structure/tree.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/structure/tree.md",
@@ -2700,11 +2700,11 @@ export function getRoutes() {
             "title": "Structure"
           }
         },
-        "title": "树 - 刘夏江"
+        "title": "树 - freemen"
       },
       {
         "path": "/blog/vue/mvvm",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__vue__mvvm.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/vue/mvvm.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__vue__mvvm.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/vue/mvvm.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/vue/mvvm.md",
@@ -2736,11 +2736,11 @@ export function getRoutes() {
             "title": "Vue"
           }
         },
-        "title": "vue mvvm 原理 - 刘夏江"
+        "title": "vue mvvm 原理 - freemen"
       },
       {
         "path": "/blog/vue/vuex",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__vue__vuex.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/vue/vuex.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__vue__vuex.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/vue/vuex.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/vue/vuex.md",
@@ -2777,11 +2777,11 @@ export function getRoutes() {
             "title": "Vue"
           }
         },
-        "title": "vuex 源码解读 - 刘夏江"
+        "title": "vuex 源码解读 - freemen"
       },
       {
         "path": "/blog/webkit/base",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__base.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/webkit/base.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__base.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/webkit/base.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/webkit/base.md",
@@ -2833,11 +2833,11 @@ export function getRoutes() {
             "title": "Webkit"
           }
         },
-        "title": "webkit 之 javaScript 引擎 - 刘夏江"
+        "title": "webkit 之 javaScript 引擎 - freemen"
       },
       {
         "path": "/blog/webkit/html",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__html.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/webkit/html.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__html.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/webkit/html.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/webkit/html.md",
@@ -2909,11 +2909,11 @@ export function getRoutes() {
             "title": "Webkit"
           }
         },
-        "title": "HTML 解释器 - 刘夏江"
+        "title": "HTML 解释器 - freemen"
       },
       {
         "path": "/blog/webkit/render",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__render.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/webkit/render.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__render.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/webkit/render.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/webkit/render.md",
@@ -2965,11 +2965,11 @@ export function getRoutes() {
             "title": "Webkit"
           }
         },
-        "title": "webKit的网页渲染过程 - 刘夏江"
+        "title": "webKit的网页渲染过程 - freemen"
       },
       {
         "path": "/blog/webkit/sped",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__sped.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/webkit/sped.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__sped.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/webkit/sped.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/webkit/sped.md",
@@ -3011,11 +3011,11 @@ export function getRoutes() {
             "title": "Webkit"
           }
         },
-        "title": "浏览器之硬件加速机制 - 刘夏江"
+        "title": "浏览器之硬件加速机制 - freemen"
       },
       {
         "path": "/blog/webkit/style",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__style.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/blog/webkit/style.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__blog__webkit__style.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/blog/webkit/style.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/blog/webkit/style.md",
@@ -3062,15 +3062,15 @@ export function getRoutes() {
             "title": "Webkit"
           }
         },
-        "title": "浏览器内核之 CSS 解释器和样式布局 - 刘夏江"
+        "title": "浏览器内核之 CSS 解释器和样式布局 - freemen"
       },
       {
         "path": "/framework",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__framework__index.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/framework/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__framework__index.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/framework/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/framework/index.md",
-          "updatedTime": 1682998267705,
+          "updatedTime": 1683256762000,
           "slugs": [
             {
               "depth": 2,
@@ -3089,15 +3089,15 @@ export function getRoutes() {
             "title": "Framework"
           }
         },
-        "title": "前端架构 - 刘夏江"
+        "title": "前端架构 - freemen"
       },
       {
         "path": "/framework/environment/coder-tool",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__framework__environment__coderTool.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/framework/environment/coderTool.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__framework__environment__coderTool.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/framework/environment/coderTool.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/framework/environment/coderTool.md",
-          "updatedTime": 1683102636105,
+          "updatedTime": 1683256762000,
           "slugs": [
             {
               "depth": 3,
@@ -3115,16 +3115,16 @@ export function getRoutes() {
             "title": "Environment"
           }
         },
-        "title": "代码编写工具 - 刘夏江"
+        "title": "代码编写工具 - freemen"
       },
       {
         "path": "/jingpin",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__jingpin__index.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/jingpin/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__jingpin__index.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/jingpin/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/jingpin/index.md",
-          "updatedTime": 1624178582000,
-          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "updatedTime": 1683256762000,
+          "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享",
           "hero": {
             "title": "精品资源",
             "desc": "<div class=\"markdown\"><p>持续更新中...</p></div>"
@@ -3136,16 +3136,16 @@ export function getRoutes() {
             "title": "Jingpin"
           }
         },
-        "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享 - 刘夏江"
+        "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享 - freemen"
       },
       {
         "path": "/resource",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__resource__index.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/resource/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__resource__index.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/resource/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/resource/index.md",
-          "updatedTime": 1624178582000,
-          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "updatedTime": 1683256762000,
+          "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享",
           "hero": {
             "title": "博主出品",
             "desc": "<div class=\"markdown\"><p>持续更新中...</p></div>"
@@ -3157,16 +3157,16 @@ export function getRoutes() {
             "title": "Resource"
           }
         },
-        "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享 - 刘夏江"
+        "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享 - freemen"
       },
       {
         "path": "/week",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__week__index.md' */'/Users/freemen/Desktop/blog/freemenBlog/site-model/docs/week/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__week__index.md' */'/Users/liuxiajiang/Desktop/bilibili/freemenBlog/site-model/docs/week/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/week/index.md",
-          "updatedTime": 1624178582000,
-          "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享",
+          "updatedTime": 1683256762000,
+          "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享",
           "hero": {
             "title": "每周导读"
           },
@@ -3177,7 +3177,7 @@ export function getRoutes() {
             "title": "Week"
           }
         },
-        "title": "刘夏江 | react | webpack | Node.js | webkit | 最新干货分享 - 刘夏江"
+        "title": "freemen | react | webpack | Node.js | webkit | 最新干货分享 - freemen"
       },
       {
         "path": "/blog/echarts",
@@ -3246,7 +3246,7 @@ export function getRoutes() {
         "redirect": "/framework/environment/coder-tool"
       }
     ],
-    "title": "刘夏江",
+    "title": "freemen",
     "component": (props) => props.children
   }
 ];
